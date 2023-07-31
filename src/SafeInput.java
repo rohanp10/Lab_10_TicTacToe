@@ -90,7 +90,7 @@ public class SafeInput {
 
         do
         {
-            System.out.print("\n" + prompt + " [" + low + " - " + high + "]: ");
+            System.out.print("" + prompt + " [" + low + " - " + high + "]: ");
             if (pipe.hasNextInt()) {
                 retVal = pipe.nextInt();
                 pipe.nextLine();
